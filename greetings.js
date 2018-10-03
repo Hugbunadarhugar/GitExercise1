@@ -1,8 +1,10 @@
 //greetings.js
 
-function greeting(){
-        console.log("Hello, World!");
+function greetings(name){
+        //console.log("Hello, World!");
+	
+	return "Hello, " + name + "!";
 }
 
-greeting();
-
+//Exporting the function instead of calling it: 
+module.exports = greetings;
